@@ -11,3 +11,130 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media (max-width:900px){
+  div.section{
+        padding: 0px 7%;
+    }
+    div .menu-btn{
+        display: block;
+    }
+    div .navbar{
+        display: none;
+    } 
+}
+/*   }
+  .header{
+      padding:11px 4%;
+      background: #2d2d2d;
+  }
+  :root{
+      --big-font: 3rem;
+  --p-font:0.8rem;
+  transition: .2s;
+  }
+  .home-img{
+      margin: auto;
+      width: auto;
+      height: auto;
+  }
+  .home-img img{
+      max-width: 450px;
+      width: 100%;
+      height: auto;
+  }
+  .home{
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .home-text{
+      order: 2;
+  }
+}
+@media (max-width:850px){
+  .navbar{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      padding: 40px 50px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #2d2d2d;
+      transition: all 0.4s ease-in-out;
+  }
+  .navbar a{
+      display: block;
+      color: #c3c3c3;
+      padding: 0px;
+      margin: 0px 0px 40px 0px;
+      font-size: 2rem;
+      font-weight: 400;
+  }
+  .navbar.open{
+      left: 0;
+  }
+  .menu-btn{
+      display: block;
+  }
+
+}
+@media (max-width:500px){
+     #menu-icon{
+          display: initial;
+      }
+  :root{
+      --big-font: 2.5rem;
+    --p-font:15px;
+    transition: 0.2s;
+  }
+  .btn{
+      padding: 9px 28px;
+  }
+  .header{
+      padding:5px 4%;
+      font-size: 0.9rem;
+      font-weight: 400;
+      background: #2d2d2d;
+  }
+  .logo{
+      font-size: 1.5rem;
+  }
+  .navbar{
+      position: absolute;
+      max-width:100%;
+      max-width:100vh;
+      padding: 40px 50px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #2d2d2d;
+      transition: all 0.3s ease-in-out;
+  }
+  .navbar a{
+      display: block;
+      color: #c3c3c3;
+      margin: 0px 0px 40px 0px;
+      font-size: 1.5rem;
+      font-weight: 0;
+  }
+  .navbar.open{
+       left: 0;
+  }
+  .menu-btn{
+      display: flex;
+  }
+}  
+.home-img img{
+  animation: imgg 2s ease-in-out infinite;
+  animation-delay: 2s;
+} */
+
