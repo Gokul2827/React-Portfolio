@@ -8,12 +8,12 @@ function Header() {
   }
   return (
     <div className='header'>
-     <a href="#" className="logo"><span>G</span>okulakrishnan</a>
+     <a href="/" className="logo"><span>G</span>okulakrishnan</a>
 
         <ul className="navbar">
             <li><Link  to='/' class="active">Home</Link></li>
             <li><Link  to="/Projects">Projects</Link></li>
-            <li><Link to='/resume'>Resume</Link></li>
+            <li><Link to="https://drive.google.com/file/d/1PgkajAaqTwmQgRrqYQKGUoSVOEHrfc6J/view?usp=sharinghttps://drive.google.com/file/d/1PgkajAaqTwmQgRrqYQKGUoSVOEHrfc6J/view?usp=sharing">Resume</Link></li>
 
         </ul>
         <div className="menu-btn" onClick={menu}><span>Menu</span><div className='bx bx-menu' id="menu-icon">
@@ -24,10 +24,9 @@ function Header() {
           <ul>
         <li><Link  to='/' class="active">Home</Link></li>
             <li><Link  to="/Projects">Projects</Link></li>
-            <li><Link to='/resume'>Resume</Link></li>
+            <li><Link to="https://drive.google.com/file/d/1PgkajAaqTwmQgRrqYQKGUoSVOEHrfc6J/view?usp=sharinghttps://drive.google.com/file/d/1PgkajAaqTwmQgRrqYQKGUoSVOEHrfc6J/view?usp=sharing">Resume</Link></li>
             </ul>
-        </div>
-
+        </div>  
       </div>
 
   )

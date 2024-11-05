@@ -14,7 +14,7 @@ function Content() {
             </div>
         </div>
         <div className="home-img">
-          <img src={img1}></img>
+          <img src={img1} alt='profile'></img>
           <div className='anima'></div>
         </div>
 

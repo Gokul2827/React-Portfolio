@@ -14,7 +14,7 @@ function Footer() {
     </div>
     
     </div>
-    <div className='contact'><label>Contact :</label><a> gokulakrishnana4@gmail.com</a></div>
+    <div className='contact'><label>Contact :</label><a href='/'> gokulakrishnana4@gmail.com</a></div>
     </div>
   )
 }

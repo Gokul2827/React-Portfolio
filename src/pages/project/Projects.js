@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import figma from './figma.png' ;
 import html from './html.png' ;
 import css from './css.png' ;
@@ -35,7 +35,7 @@ function Projects() {
       
           return ` 
           <div className='box'> 
-              <a target='_blank' href=${product.href}><img src=${product.imgSrc}/> 
+              <a target='_blank' href=${product.href}><img src=${product.imgSrc} alt=""/> 
               <h3>${product.name}</h3></a>
           </div>
           `}  
@@ -43,7 +43,6 @@ function Projects() {
   const [logo,setLogo]=useState()
   return (
     <div className='j1'>
-         {/* <i className='bx bx-arrow-back' onClick={(Event)=>Event.location.reload()}></i> */}
         <div className='heading'><img id='log' src={logo}></img><h4>Projects</h4> </div>
         <div className='project-title glow'>
             <div className='scroll-left' id='cards'>  
