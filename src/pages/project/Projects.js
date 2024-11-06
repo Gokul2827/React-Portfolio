@@ -44,7 +44,7 @@ function Projects() {
   const [logo,setLogo]=useState()
   return (
     <div className='j1'>
-        <div className='heading'><img id='log' src={logo}></img><h4>Projects</h4> </div>
+        <div className='heading'><img id='log' alt='' src={logo}></img><h4>Projects</h4> </div>
         <div className='project-title glow'>
             <div className='scroll-left' id='cards'>  
                 <img src={figma} alt='logo' onClick={()=>openproj(1,figma)}></img>
