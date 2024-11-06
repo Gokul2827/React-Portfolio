@@ -7,6 +7,15 @@ import react from './react.png' ;
 import sql from './mysql.png' ;
 import './Projects.css'
 import js from './projects.json'
+import img1 from '../imgs/food1.png'
+import img2 from '../imgs/food2.png'
+import img3 from '../imgs/port3.png'
+import img4 from '../imgs/port4.png'
+import img5 from '../imgs/port5.png'
+import img6 from '../imgs/port6.png'
+import img7 from '../imgs/port7.png'
+import img8 from '../imgs/port8.png'
+
 
 function Projects() { 
   function openproj(index,val){
@@ -14,11 +23,11 @@ function Projects() {
     document.getElementById('log').style.display="block";
 
    setLogo(val)
-    js.map(data=>{
+    js.forEach(data=>{
       if(data){
       let item=''
       if(data.filter_id===index){
-        data.products.map((val,index)=>{
+        data.products.forEach((val,index)=>{
           item += productView(val,index);
         })
       return(

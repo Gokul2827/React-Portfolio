@@ -11,7 +11,7 @@ function Header() {
      <a href="/" className="logo"><span>G</span>okulakrishnan</a>
 
         <ul className="navbar">
-            <li><Link  to='/' class="active">Home</Link></li>
+            <li><Link  to='/' className="active">Home</Link></li>
             <li><Link  to="/Projects">Projects</Link></li>
             <li><Link to="https://drive.google.com/file/d/1PgkajAaqTwmQgRrqYQKGUoSVOEHrfc6J/view?usp=sharinghttps://drive.google.com/file/d/1PgkajAaqTwmQgRrqYQKGUoSVOEHrfc6J/view?usp=sharing">Resume</Link></li>
 
