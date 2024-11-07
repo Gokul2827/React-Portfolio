@@ -6,25 +6,25 @@
         {
           "id": 1.1,
           "name": "Mom's app",
-          "imgSrc": "/static/media/food1.59dd5f45bf1ab24b1044.png",
+          "imgSrc": "imgs/port1.png",
           "href":"https://www.behance.net/gallery/159907159/Moms-Taste-App-UIUX-Case-Study"
         },
         {
             "id": 1.2,
             "name": "Celebrare",
-            "imgSrc": "/static/media/port3.502c40d5a5c9a631034d.png",
+            "imgSrc":"imgs/port3.png",
              "href":"https://www.behance.net/gallery/189161919/Celebrare-RedesignY"
           },
           {
             "id": 1.3,
             "name": "Nifty BookKeepers",
-            "imgSrc": "/static/media/port4.a30c528277ea8a09777e.png",
+            "imgSrc": "imgs/port4.png",
              "href":"https://www.behance.net/gallery/189249163/Nifty-Bookkeepers-Service-Page"
           },
           {
             "id": 1.4,
             "name": "GreenBite",
-            "imgSrc": "/static/media/port5.1667469be8061acce5a5.png",
+            "imgSrc": "imgs/port5.png",
              "href":"https://www.behance.net/gallery/190173459/GreenBite"
           }
     ]  
@@ -36,31 +36,31 @@
         {
           "id": 2.1,
           "name": "Delicacy",
-          "imgSrc": "/static/media/food2.f3e57593b602fa957dc0.png",
+          "imgSrc": "imgs/port2.png",
           "href":"https://gokul2827.github.io/Project-1/"
         },
         {
             "id": 2.2,
             "name": "Krumble",
-            "imgSrc": "/static/media/port7.5cc0894c80ae318ecfbb.png",
+            "imgSrc": "imgs/port7.png",
             "href":"https://krumble.netlify.app/"
         },
         {
           "id": 2.3,
           "name": "Grand Gatherings",
-          "imgSrc": "/static/media/port8.365ce160bb59dc178537.png",
+          "imgSrc":"imgs/port8.png",
           "href":"https://grandgatherings.netlify.app/"
         },
         {
           "id": 2.4,
           "name": "Netflix-Clone",
-          "imgSrc": "/static/media/port6.9790c0c8afa60d8cd1cf.png",
+          "imgSrc": "imgs/port7.png",
           "href":"https://gokul2827.github.io/Netflix-Clone/"
         },
         {
           "id": 2.5,
           "name": "InstagramLoginPage",
-          "imgSrc": "images/book.png",
+          "imgSrc": "imgs/port2.png",
           "href":"https://github.com/Gokul2827/instagramloginpage/blob/main/index.html"
         }
         ]
@@ -72,31 +72,31 @@
       {
         "id": 3.1,
         "name": "Delicacy",
-        "imgSrc": "/static/media/food2.f3e57593b602fa957dc0.png",
+        "imgSrc": "imgs/port2.png",
         "href":"https://gokul2827.github.io/Project-1/"
       },
       {
           "id": 3.2,
           "name": "Krumble",
-          "imgSrc": "/static/media/port7.5cc0894c80ae318ecfbb.png",
+          "imgSrc": "imgs/port7.png",
           "href":"https://krumble.netlify.app/"
       },
       {
         "id": 3.3,
         "name": "Grand Gatherings",
-        "imgSrc": "/static/media/port8.365ce160bb59dc178537.png",
+        "imgSrc":"imgs/port8.png",
         "href":"https://grandgatherings.netlify.app/"
       },
       {
         "id": 3.4,
         "name": "Netflix-Clone",
-        "imgSrc": "/static/media/port6.9790c0c8afa60d8cd1cf.png",
+        "imgSrc": "imgs/port7.png",
         "href":"https://gokul2827.github.io/Netflix-Clone/"
       },
       {
         "id": 3.5,
         "name": "InstagramLoginPage",
-        "imgSrc": "images/book.png",
+        "imgSrc": "imgs/port2.png",
         "href":"https://github.com/Gokul2827/instagramloginpage/blob/main/index.html"
       }
       ]

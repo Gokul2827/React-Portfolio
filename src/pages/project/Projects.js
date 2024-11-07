@@ -35,7 +35,7 @@ function Projects() {
       console.log(product.imgSrc);
       
           return ` 
-          <div className='box'> 
+          <div className='box' key=${index}> 
               <a target='_blank' href=${product.href}><img src=${product.imgSrc} alt=""/> 
               <h3>${product.name}</h3></a>
           </div>

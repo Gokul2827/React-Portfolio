@@ -126,3 +126,11 @@ body{
         font-size: 13px;
     }
   }
+  @media(max-width:350px){
+    .logo{
+      font-size: 20px;
+    }
+    .menu-btn{
+        font-size: 10px;
+    }
+  }

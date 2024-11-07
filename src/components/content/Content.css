@@ -127,7 +127,11 @@
     .btn{
         font-size: 13px;
     }
-}
+}@media(max-width:350px){    
+    .home-img img{  
+            width: 80%;
+            height: 80%;
+     }}
 
 
 
