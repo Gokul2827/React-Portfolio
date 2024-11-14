@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   const menu=()=>{
-    document.getElementById("ropdown").classList.toggle("show")
+    document.getElementById("myDropdown").classList.toggle("show")
   }
   return (
     <div className='header'>
