@@ -32,7 +32,6 @@ function Projects() {
     }}
   )
     function productView(product,index){
-      console.log(product.imgSrc);
       
           return ` 
           <div className='box' key=${index}> 
@@ -52,9 +51,7 @@ function Projects() {
                 <img src={css} alt='logo' onClick={()=>openproj(3,css)}></img>
                 <img src={javascript} alt='logo' onClick={()=>openproj(4,javascript)}></img>
                 <img src={react} alt='logo' onClick={()=>openproj(5,react)}></img>
-                <img src={sql} alt='logo' onClick={()=>openproj(6,sql)}></img>
-                
-                
+                <img src={sql} alt='logo' onClick={()=>openproj(6,sql)}></img>  
             </div>
         </div>
         

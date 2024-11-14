@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   const menu=()=>{
-    document.getElementById("myDropdown").classList.toggle("show")
+    document.getElementById("ropdown").classList.toggle("show")
   }
   return (
     <div className='header'>
      <a href="/" className="logo"><span>G</span>okulakrishnan</a>
-
         <ul className="navbar">
             <li><Link  to='/' className="active">Home</Link></li>
             <li><Link  to="/Projects">Projects</Link></li>
